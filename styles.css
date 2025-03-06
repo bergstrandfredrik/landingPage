@@ -101,3 +101,19 @@ ul {
 .sign-up:hover {
   cursor: pointer;
 }
+
+.quote-view {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 291px;
+  background-color: #e5e7eb;
+}
+.quote-text {
+  font-size: 36px;
+  font-family: "lighter italic";
+  font-style: italic;
+}
+.quote-signature {
+  align-self: flex-end;
+  font-weight: 900;
+}
