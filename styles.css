@@ -56,7 +56,6 @@ ul {
 .main {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .card-view {
@@ -116,4 +115,18 @@ ul {
 .quote-signature {
   align-self: flex-end;
   font-weight: 900;
+}
+
+.action-view {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #3882f6;
+  border-radius: 6px;
+  margin: 80px 200px;
+  padding: 30px;
+  color: white;
+}
+
+.action-view > button {
+  border: 2px solid white;
 }
