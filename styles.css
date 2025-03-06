@@ -130,3 +130,9 @@ ul {
 .action-view > button {
   border: 2px solid white;
 }
+
+.footer-container {
+  text-align: center;
+  padding: 36px;
+  color: #f9faf8;
+}
